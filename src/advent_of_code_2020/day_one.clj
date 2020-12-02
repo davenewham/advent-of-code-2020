@@ -53,18 +53,18 @@
 ;In your expense report, what is the product of the three entries that sum to 2020?
 
 (defn first-three-entries
-  [filename]
-  (first
-    (for [x (read-lines filename)
-          y (read-lines filename)
-          z (read-lines filename)
-          :when (= 2020 (+ x y z))]
-      (* x y z)
-      )
-    )
-  )
+        [filename]
+        (first
+          (for [x (read-lines filename)
+                y (read-lines filename)
+                z (read-lines filename)
+                :when (= 2020 (+ x y z))]
+            (* x y z)
+            )
+          )
+        )
 
-(first-two-entries "resources/day-one.txt")
-(first-three-entries "resources/day-one.txt")
+(time (first-two-entries "resources/day-one.txt"))
+(time (first-three-entries "resources/day-one.txt"))
 
 
