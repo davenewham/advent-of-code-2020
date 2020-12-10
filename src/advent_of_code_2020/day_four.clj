@@ -30,4 +30,4 @@
   (count (filter check (clean-file-input filename)))
   )
 
-(get-valid-passports "resources/day-four.txt")
+(time (get-valid-passports "resources/day-four.txt"))
