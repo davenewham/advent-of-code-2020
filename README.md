@@ -10,7 +10,7 @@ My daily entries to Advent of Code 2020 in Clojure. I am still a beginner and I 
 | Day  3    | [x]       | 20.9667 msecs          |
 | Day  4    | [task one] | 11.8889 msecs           |
 | Day  5    |           |           |
-| Day  6    |           |           |
+| Day  6    | [x]          | 0.5371 msecs/0.5255 msecs          |
 | Day  7    |           |           |
 | Day  8    |           |           |
 | Day  9    |           |           |
